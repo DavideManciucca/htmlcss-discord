@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.button{
+  color: black;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+}
+header{
+  height: 40px;
+  width: 100%;
+  background-color: cyan;
+  padding-top: 10px;
+  text-align: center;
+  
+}
+.logo{
+  
+  float: left;
+}
+ nav ul li{
+  display: inline-block;
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.jumbotron{
+  text-align: center;
+}
